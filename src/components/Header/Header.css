@@ -1,4 +1,26 @@
+.header__container {
+  padding-block: 1.5rem;
+}
+
 .header__link-logo {
   /*max-width: 8rem;*/
   max-width: 12rem;
+}
+
+.header__nav-list {
+  list-style: none;
+}
+
+.header__nav-link {
+  color: var(--black);
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  font-size: var(--font-size-300);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-100);
+}
+
+.header__nav-link:hover {
+  border-bottom: 1px solid var(--black);
 }

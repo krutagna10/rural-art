@@ -1,11 +1,11 @@
 import Container from "../UI/Container/Container";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo-1.png";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <Container className="header__container flex flex--justify-space">
         <div className="header__link-wrapper">
           <Link to="/">
@@ -13,12 +13,16 @@ function Header() {
           </Link>
         </div>
         <nav className="header__nav">
-          <ul>
+          <ul className="header__nav-list flex flex--gap">
             <li>
-              <Link to="/">Home</Link>
+              <Link className="header__nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/products">Products</Link>
+              <Link className="header__nav-link" to="/products">
+                Products
+              </Link>
             </li>
           </ul>
         </nav>
