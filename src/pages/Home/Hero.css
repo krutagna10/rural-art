@@ -1,0 +1,11 @@
+.hero {
+  padding-block: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 48rem) {
+  .hero {
+    grid-template-columns: 70fr 30fr;
+  }
+}
