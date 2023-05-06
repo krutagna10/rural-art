@@ -96,3 +96,51 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Spacing */
+.flow > * + * {
+  margin-top: var(--flow-space);
+}
+
+/* Flex Utility Class */
+.flex {
+  display: flex;
+}
+
+.flex--gap {
+  gap: var(--gap);
+}
+
+.flex--justify-space {
+  justify-content: space-between;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+
+.flex--center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Utility Class */
+.grid {
+  display: grid;
+}
+
+.grid--gap {
+  gap: var(--gap);
+}
+
+.grid--content-center {
+  place-content: center;
+}
+
+.grid--items-center {
+  place-items: center;
+}

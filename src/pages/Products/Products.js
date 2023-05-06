@@ -1,8 +1,10 @@
+import Layout from "../../layout/Layout";
+
 function Products() {
   return (
-    <div>
+    <Layout>
       <h1>Products Page</h1>
-    </div>
+    </Layout>
   );
 }
 
