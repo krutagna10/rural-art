@@ -1,5 +1,5 @@
 import Container from "../UI/Container/Container";
-import logo from "../../assets/shared/logo.png";
+import logo from "../../assets/shared/logo(1).svg";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import { useState } from "react";
@@ -42,6 +42,11 @@ function Header() {
             <li>
               <Link className="header__nav-link" to="/products">
                 Products
+              </Link>
+            </li>
+            <li>
+              <Link className="header__nav-link" to="/">
+                Login
               </Link>
             </li>
           </ul>

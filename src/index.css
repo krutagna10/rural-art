@@ -25,6 +25,7 @@
   /* Spacing */
   --gap: 1rem;
   --flow-space: 1.25rem;
+  --section-padding: clamp(3rem, 8vw, 5rem);
 
   /* Border Radius*/
   --border-radius-100: 0.75rem;
@@ -36,8 +37,8 @@
 @media (min-width: 48em) {
   :root {
     --font-size-500: 3rem;
-    --font-size-300: 0.875rem;
     --font-size-400: 2.5rem;
+    --font-size-300: 0.875rem;
     --font-size-100: 1rem;
     --hero-padding: 5rem;
   }
@@ -75,6 +76,7 @@ html {
 
 body {
   font-family: var(--font-family-jost);
+  font-size: var(--font-size-200);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -156,4 +158,25 @@ body {
 
 .grid--items-center {
   place-items: center;
+}
+
+/* Font Sizes */
+.font-size-500 {
+  font-size: var(--font-size-500);
+}
+
+.font-size-400 {
+  font-size: var(--font-size-400);
+}
+
+.font-size-300 {
+  font-size: var(--font-size-300);
+}
+
+.font-size-200 {
+  font-size: var(--font-size-200);
+}
+
+.font-size-100 {
+  font-size: var(--font-size-100);
 }

@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  padding: 0.6125rem 1.25rem;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  font-weight: var(--font-weight-medium);
+}
+
+.btn--white {
+  background-color: var(--white);
+}
+
+.btn--peach {
+  background-color: var(--peach);
+  color: var(--white);
+}

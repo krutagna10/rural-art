@@ -1,0 +1,4 @@
+.section {
+  padding-block: var(--section-padding);
+  border: 1px solid red;
+}

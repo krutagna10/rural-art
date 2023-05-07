@@ -1,13 +1,46 @@
+/* Hero Section*/
+.hero-section {
+  padding-block-start: 2rem !important;
+}
+
 .hero {
-  padding-block-start: 1rem;
-  padding-block-end: 3rem;
+  --gap: 5rem;
   display: grid;
   place-items: center;
-  border: 1px solid red;
+  text-align: center;
+}
+
+.hero__title {
+  font-size: var(--font-size-500);
+}
+
+.hero__btn {
+  justify-self: center;
+}
+
+@media (min-width: 56em) {
+  .hero {
+    grid-template-columns: 40fr 60fr;
+    text-align: left;
+    gap: 2.5rem;
+  }
+
+  .hero__btn {
+    justify-self: start;
+  }
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+}
+
+.features__title {
+  font-size: var(--font-size-400);
 }
 
 @media (min-width: 48em) {
-  .hero {
-    grid-template-columns: 1fr 1fr;
+  .features__content {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
