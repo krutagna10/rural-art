@@ -39,6 +39,11 @@
   font-size: var(--font-size-400);
 }
 
+.feature__title {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-100);
+}
+
 @media (min-width: 48em) {
   .features__content {
     grid-template-columns: repeat(3, 1fr);
