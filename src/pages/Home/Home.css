@@ -32,6 +32,8 @@
 
 /* Features Section */
 .features {
+  --gap: clamp(1.25rem, 3vw, 3rem);
+
   text-align: center;
 }
 

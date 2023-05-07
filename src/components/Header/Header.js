@@ -1,5 +1,5 @@
 import Container from "../UI/Container/Container";
-import logo from "../../assets/shared/logo(1).svg";
+import logo from "../../assets/shared/logo.png";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import { useState } from "react";
