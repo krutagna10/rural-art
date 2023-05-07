@@ -1,7 +1,7 @@
 import Layout from "../../layout/Layout";
 import Container from "../../components/UI/Container/Container";
 import heroImage from "../../assets/home/hero.png";
-import "./Hero.css";
+import "./Home.css";
 
 function Home() {
   return (

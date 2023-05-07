@@ -1,14 +1,51 @@
 .header__container {
   padding-block: 1.5rem;
+  position: relative;
 }
 
 .header__link-logo {
-  /*max-width: 8rem;*/
-  max-width: 12rem;
+  max-width: 10rem;
 }
 
 .header__nav-list {
   list-style: none;
+}
+
+.header__nav-toggle {
+  display: none;
+}
+
+@media (max-width: 47.99em) {
+  .header__nav-list {
+    position: absolute;
+    background-color: var(--black);
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 30vh;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 2rem;
+  }
+
+  .header__nav-link {
+    color: var(--white) !important;
+  }
+
+  .header__nav-toggle {
+    display: block;
+    cursor: pointer;
+    background-image: url("../../assets/shared/icon-hamburger.svg");
+    background-color: transparent;
+    width: 2.4rem;
+    height: 1.6rem;
+    background-repeat: no-repeat;
+    /*background: transparent;*/
+    background-position: center;
+    border: none;
+    margin-left: auto;
+  }
 }
 
 .header__nav-link {

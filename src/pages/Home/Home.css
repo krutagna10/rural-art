@@ -4,8 +4,8 @@
   place-items: center;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .hero {
-    grid-template-columns: 70fr 30fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
