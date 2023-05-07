@@ -1,7 +1,9 @@
 .hero {
-  padding-block: 3rem;
+  padding-block-start: 1rem;
+  padding-block-end: 3rem;
   display: grid;
   place-items: center;
+  border: 1px solid red;
 }
 
 @media (min-width: 48em) {
