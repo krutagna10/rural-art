@@ -18,7 +18,7 @@ const features = [
   {
     title: "Easy to use",
     description:
-      "At Rural Art, we want to make your shopping experience as easy and hassle-free as possible. That's why our website is designed to be user-friendly, with simple navigation and clear product descriptions. Whether you're a first-time shopper or a seasoned pro, you'll find everything you need to make informed and confident purchases.",
+      "At Rural Art, we want to make your shopping experience as easy and hassle-free as possible. That's why our website is designed to be user-friendly, with simple navigation and clear product descriptions. Whether you're a first-time shopper or a seasoned pro, you'll find everything you need to make confident purchases.",
     image: illustration3,
   },
 ];

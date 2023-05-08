@@ -46,6 +46,10 @@
   letter-spacing: var(--letter-spacing-100);
 }
 
+.feature__description {
+  font-size: var(--font-size-100);
+}
+
 @media (min-width: 48em) {
   .features__content {
     grid-template-columns: repeat(3, 1fr);
