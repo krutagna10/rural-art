@@ -1,14 +1,15 @@
 import Layout from "../../layout/Layout";
 import Container from "../../components/UI/Container/Container";
+import ProductsList from "../../components/ProductsList/ProductsList";
+import data from "./data";
+import { useState } from "react";
 
 function Products() {
+  const [products, setProducts] = useState(data);
+
   return (
     <Layout>
-      <section className="product-section">
-        <Container className="products">
-          <h1>Products Page</h1>
-        </Container>
-      </section>
+      <ProductsList products={products} />
     </Layout>
   );
 }

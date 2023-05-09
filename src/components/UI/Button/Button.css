@@ -5,6 +5,7 @@
   border: none;
   text-transform: uppercase;
   border-radius: 0.25rem;
+  white-space: nowrap;
   font-weight: var(--font-weight-medium);
 }
 
