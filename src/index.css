@@ -14,7 +14,8 @@
   --font-size-100: 0.9375rem;
 
   /* Colors */
-  --peach: hsl(11, 73%, 66%);
+  --peach: hsl(10, 84%, 71%);
+  --light-peach: hsl(11, 74%, 69%);
   --dark-peach: hsl(11, 66%, 64%);
   --black: hsl(270, 3%, 11%);
   --white: hsl(0, 0%, 100%);

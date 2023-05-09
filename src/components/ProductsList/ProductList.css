@@ -1,3 +1,24 @@
+.products-section {
+  padding-block-start: 2rem !important;
+}
+
+@media (min-width: 48em) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.product {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.85);
+}
+
 .product__image {
-  max-width: 16rem;
+  height: 22.5rem;
+  width: 100%;
+}
+
+.product__content {
+  --gap: 1.75rem;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
 }
