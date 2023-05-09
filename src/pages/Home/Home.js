@@ -3,7 +3,7 @@ import Container from "../../components/UI/Container/Container";
 import Button from "../../components/UI/Button/Button";
 import Section from "../../components/UI/Section/Section";
 import { features } from "./data";
-import heroImage from "../../assets/home/hero.png";
+import heroImage from "../../assets/home/hero1.png";
 import "./Home.css";
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
               crafts that hold immense value and brings well-deserved
               recognition to the skilled artisans behind them.
             </p>
-            <Button className="hero__btn btn btn--peach">Shop Now</Button>
+            <Button className="hero__btn btn btn--white">Shop Now</Button>
           </div>
           <div className="hero__image-wrapper">
             <img src={heroImage} alt="Hero" />

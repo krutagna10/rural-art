@@ -1,6 +1,7 @@
 /* Hero Section*/
 .hero-section {
   padding-block-start: 2rem !important;
+  background-color: var(--peach);
 }
 
 .hero {
@@ -8,6 +9,7 @@
   display: grid;
   place-items: center;
   text-align: center;
+  color: var(--white);
 }
 
 .hero__title {

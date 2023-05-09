@@ -25,7 +25,7 @@
   /* Spacing */
   --gap: 1rem;
   --flow-space: 1.25rem;
-  --section-padding: clamp(3rem, 8vw, 5rem);
+  --section-padding: clamp(3rem, 8vw, 6rem);
 
   /* Border Radius*/
   --border-radius-100: 0.75rem;
