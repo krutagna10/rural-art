@@ -1,0 +1,34 @@
+.login-section {
+  padding-block-start: 2rem !important;
+  min-height: 90vh;
+  display: grid;
+  place-content: center;
+}
+
+.login {
+  text-align: center;
+  max-width: 20rem;
+}
+
+.login__form {
+  border: 2px solid black;
+}
+
+.login__heading-wrapper {
+  background-color: var(--peach);
+  padding: 1rem;
+  color: var(--white);
+}
+
+.login__content {
+  padding-block: 1rem;
+  padding-inline: 1rem;
+}
+
+.login__input {
+  width: 100%;
+}
+
+.login__btn-sign-in {
+  width: 100%;
+}
