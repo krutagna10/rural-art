@@ -8,15 +8,19 @@
 .login {
   text-align: center;
   max-width: 21rem;
+  padding-inline: 0 !important;
+  border-radius: var(--border-radius-100);
+  box-shadow: 3px 5px 12px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
 }
 
 .login__form {
-  border: 2px solid black;
+  --flow-space: 1.75rem;
 }
 
 .login__heading-wrapper {
   background-color: var(--peach);
-  padding: 1rem;
+  padding: 1.75rem;
   color: var(--white);
 }
 
@@ -27,8 +31,28 @@
 
 .login__input {
   width: 100%;
+  padding: 0.35rem;
 }
 
 .login__btn-sign-in {
   width: 100%;
+}
+
+.login__sign-up-wrapper {
+  margin-top: 7.5rem;
+}
+
+.login__sign-up-label {
+  font-size: var(--font-size-100);
+  color: var(--dark-grey);
+}
+
+.login__btn-sign-up {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--peach);
+  text-transform: uppercase;
+  font-size: var(--font-size-100);
+  letter-spacing: var(--letter-spacing-100);
 }

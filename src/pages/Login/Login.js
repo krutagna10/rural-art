@@ -12,7 +12,7 @@ function Login() {
             <div className="login__heading-wrapper">
               <h1 className="login__heading">Sign In</h1>
             </div>
-            <div className="login__content">
+            <div className="login__content flow">
               <input
                 className="login__input"
                 type="text"
@@ -26,8 +26,10 @@ function Login() {
               <button className="login__btn-sign-in btn btn--peach">
                 Sign In
               </button>
-              <p className="login__text">Don't have an account?</p>
-              <button className="login__btn-sign-up">Sign up now</button>
+              <div className="login__sign-up-wrapper">
+                <p className="login__sign-up-label">Don't have an account?</p>
+                <button className="login__btn-sign-up">Sign up</button>
+              </div>
             </div>
           </form>
         </Container>

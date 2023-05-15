@@ -25,11 +25,6 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link className="footer__nav-link" to="/contact">
-                Contact
-              </Link>
-            </li>
-            <li>
               <Link className="footer__nav-link" to="/login">
                 Login
               </Link>

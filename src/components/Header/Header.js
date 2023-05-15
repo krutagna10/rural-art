@@ -40,11 +40,6 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link className="header__nav-link" to="/contact">
-                Contact
-              </Link>
-            </li>
-            <li>
               <Link className="header__nav-link" to="/login">
                 Login
               </Link>
